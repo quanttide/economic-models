@@ -1,0 +1,15 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "economic-models"
+version = "0.1.0-alpha.1"
+description = "Economic Models with Domain Driven Design"
+authors = ["QuantTide Inc. <opensource@quanttide.com>"]
+license = "BSD-3-Clause"
+readme = "README.md"
+packages = [{include = "economic_models"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
